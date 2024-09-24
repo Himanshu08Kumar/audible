@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "image": "https://imgs.search.brave.com/uRzxIlRuVzJupNwmeiDY1bcgmDfFSswioV7_g1wLn5c/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFqUlJycVppcEwu/anBn",
+      "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
+      "writtenBy": "Héctor García and Francesc Miralles",
+      "language": "English"
+    },
+    {
+        "id": 2,
+      "image": "https://imgs.search.brave.com/RyugtljG61DdWcIb3LZNjDwJ8sFxbb5jG7MmVHxup6Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTF2U1hrMzVUOEwu/anBn",
+      "name": "Karma: A Yogi’s Guide to Crafting Your Destiny",
+      "writtenBy": "Sadhguru",
+      "language": "English"
+    },
+    {
+        "id": 3,
+      "image": "https://imgs.search.brave.com/bBleYPQ9pz76lGHmfq6jfAuzsDtPqij-mglR44h5oBE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFjNEgzVkJjaUwu/anBn",
+      "name": "Can't Hurt Me",
+      "writtenBy": "David Goggins",
+      "language": "English"
+    },
+    {
+        "id": 4,
+      "image": "https://imgs.search.brave.com/donRKl7AfwBnoyGik2JcDeJsU0YAdmwXAjrbRo_RQEE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9sZWFk/ZXJzaGlwYm9va3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL1Ro/ZVBzeWNob2xvZ3lv/Zk1vbmV5LmpwZz92/PTE2MTcwODA0NDk",
+      "name": "Psychology of Money",
+      "writtenBy": "Morgan Housel",
+      "language": "English"
+    },
+    {
+        "id": 5,
+      "image": "https://imgs.search.brave.com/jRzLaWLH5vKopgnM9gV2p7n3Kom91n5qmmt5hQIwSg0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDF1a2loYysxM0wu/anBn",
+      "name": "A Promised Land",
+      "writtenBy": "Barack Obama",
+      "language": "English"
+    },
+    {
+    "id": 6,
+      "image": "https://imgs.search.brave.com/5ImEl8GB6h7ehTmgYaZJLVrNzNY7xvzMnKnnGmxAxDA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jNy5h/bGFteS5jb20vY29t/cC9FQjVQTTkvaGFy/cnktcG90dGVyLWFu/ZC10aGUtcGhpbG9z/b3BoZXJzLXN0b25l/LWNhdGFsYW4tZWRp/dGlvbi1FQjVQTTku/anBn",
+      "name": "Harry Potter and the Philosopher’s Stone",
+      "writtenBy": "J.K. Rowling",
+      "language": "English"
+    },
+    {
+        "id": 7,
+      "image": "https://imgs.search.brave.com/PtOwiLI8chyXcKtQMTlWRCRRLG4hFWsWdxH_x0NTr-U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2F0ZXJzdG9uZXMu/Y29tL292ZXJyaWRl/L3YxL2xhcmdlLzk3/ODEvODQ3OS85Nzgx/ODQ3OTQxODMxLmpw/Zw",
+      "name": "Atomic Habits",
+      "writtenBy": "James Clear",
+      "language": "English"
+    },
+    {
+        "id": 8,
+      "image": "https://imgs.search.brave.com/0b3BI1G0jHlrM-JNnPqai-sd9rrA32lrWEpGj1MXxRU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFtTjNiWTBKakwu/anBn",
+      "name": "The Subtle Art of Not Giving a F*ck",
+      "writtenBy": "Mark Manson",
+      "language": "English"
+    },
+    {
+        "id": 9,
+      "image": "https://imgs.search.brave.com/atjg77XooCGgRXn_5PgH6Lir8EFwmHeZ6ewdldaovHw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2F0ZXJzdG9uZXMu/Y29tL2Jvb2tqYWNr/ZXRzL2xhcmdlLzk3/ODAvNzIyNS85Nzgw/NzIyNTMyOTM1Lmpw/Zw",
+      "name": "The Alchemist",
+      "writtenBy": "Paulo Coelho",
+      "language": "English"
+    },
+    {
+        "id": 10,
+      "image": "https://imgs.search.brave.com/KiZeXMYvmFgZz4n-FSYkDMpJMxQXNycrwnjtmcRX2R0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxTjMtRkZTRHhM/LmpwZw",
+      "name": "Sapiens: A Brief History of Humankind",
+      "writtenBy": "Yuval Noah Harari",
+      "language": "English"
+    },
+    {
+        "id": 11,
+      "image": "https://imgs.search.brave.com/zdSYhdmXcd6PI1rt-HqqTE2yyplcoU5eCOxMe3F_6DY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzY1/NDNmN2ZmZTEyNTI5/N2RkYWYyZTZhOS9j/ODY5NzUxMC00ZDMy/LTQzZjMtODA4My1h/NjExNjIwNjNhNGIv/cG93ZXItb2YtaGFi/aXQtbGFyZ2UtZmxh/dC5qcGc",
+      "name": "The Power of Habit",
+      "writtenBy": "Charles Duhigg",
+      "language": "English"
+    },
+    {
+        "id": 12,
+      "image": "https://imgs.search.brave.com/6ht-QFrPUDgsCA_MBnp0Csg9d3a8OeB7oMYua2ETb64/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMzLnBlbmd1aW5y/YW5kb21ob3VzZS5j/b20vY292ZXIvOTc4/MDM5OTU5MDUyOA.jpeg",
+      "name": "Educated",
+      "writtenBy": "Tara Westover",
+      "language": "English"
+    },
+    {
+        "id": 13,
+      "image": "https://imgs.search.brave.com/OQWzKI1xm7vqV2A34kB-fFZYraUDZpIDKY-j1DvAjRc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzYw/NzFjNTcyZjJkM2M3/MzQ1MzMxZTUzOC9l/ZGYyZWUyZS04ZTFj/LTRmMzctOGE1MS1i/OWRkZjE2ZjUxYWEv/NUFDK2Jvb2srY292/ZXIrMy5qcGc",
+      "name": "The 5 AM Club: Own Your Morning. Elevate Your Life.",
+      "writtenBy": "Robin Sharma",
+      "language": "English"
+    }
+  ]

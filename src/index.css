@@ -2,6 +2,9 @@
 
 body {
   font-family: "Roboto";
+  .invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
 .nav {
   padding: 0.3rem 15%;
@@ -31,10 +34,9 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  /* padding: 50px; */
   padding: 0 5%;
   margin-top: 5%;
-  /* background-color: #f5f5f5; */
+  margin-bottom: 6rem;
 }
 .hero-left {
   text-align: center;
@@ -136,3 +138,66 @@ body {
   right: 2rem;
   bottom: 3rem;
 }
+.album-listing {
+  text-align: center;
+}
+.album-listing h1 {
+  font-size: 2.5rem;
+}
+.album-listing p {
+  font-size: 1.2rem;
+}
+.head-booklisting {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .head-booklisting div {
+    min-width: 150px;
+    max-width: 200px;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+  }
+  
+  .head-booklisting img {
+    width: 190px; /* Set a fixed width */
+    height: 250px; /* Set a fixed height */
+    object-fit: fill; /* Makes sure the image fits in the box, cropping the excess */
+    border-radius: 5px;
+  }
+  
+  .head-booklisting p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #023047;
+  }
+  
+  .head-booklisting p span {
+    font-weight: bold;
+    color: #02101c;
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 480px) {
+    .head-booklisting div {
+      min-width: 150px;
+    }
+  
+    .head-booklisting img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .head-booklisting p {
+      font-size: 0.9rem;
+    }
+  }
+  
