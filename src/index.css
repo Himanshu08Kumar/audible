@@ -1,25 +1,138 @@
-.nav{
-    padding: 0.3rem 15%;
-    display: flex;
-    justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto";
 }
-.nav-list{
-    list-style: none;
-    display: flex;
-    gap: 0.5rem;
-    cursor: pointer;
+.nav {
+  padding: 0.3rem 15%;
+  display: flex;
+  justify-content: space-between;
 }
-.nav-list li:hover{
-text-decoration: underline;
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.3rem 15%;
+.nav-list li:hover {
+  text-decoration: underline;
 }
-.header-list{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    cursor: pointer;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 15%;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px; */
+  padding: 0 5%;
+  margin-top: 5%;
+  /* background-color: #f5f5f5; */
+}
+.hero-left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  width: 98%;
+  color: #010e19;
+}
+.subText {
+  font-size: 1.4rem;
+  width: 90%;
+  position: relative;
+  bottom: 2rem;
+  color: #02101c;
+}
+.hero-left button {
+  padding: 1rem 2rem;
+  background-color: #ffa000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  word-spacing: -1px;
+  cursor: pointer;
+  position: relative;
+  bottom: 2rem;
+}
+.info-Text {
+  width: 50%;
+  position: relative;
+  bottom: 2rem;
+  color: rgb(63, 64, 64);
+}
+
+.hero-right {
+  display: grid;
+  margin-top: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.hero-right img {
+  object-fit: cover;
+  /* width: 5rem; */
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* Specific rotation for each image */
+.hero-right img:nth-child(1) {
+  transform: rotate(12deg);
+  width: 12rem;
+  position: relative;
+  right: 1rem;
+}
+
+.hero-right img:nth-child(2) {
+  transform: rotate(12deg);
+  width: 12rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+.hero-right img:nth-child(3) {
+  transform: rotate(12deg);
+  width: 8rem;
+  position: relative;
+  right: 2rem;
+}
+
+.hero-right img:nth-child(4) {
+  transform: rotate(12deg);
+  width: 8rem;
+  position: relative;
+  right: 1rem;
+}
+
+.hero-right img:nth-child(5) {
+  transform: rotate(12deg);
+  width: 12rem;
+  position: relative;
+  right: 3rem;
+  bottom: 2rem;
+}
+
+.hero-right img:nth-child(6) {
+  transform: rotate(12deg);
+  width: 12rem;
+  position: relative;
+  right: 2rem;
+  bottom: 3rem;
 }
