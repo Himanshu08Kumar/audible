@@ -88,13 +88,11 @@ body {
 
 .hero-right img {
   object-fit: cover;
-  /* width: 5rem; */
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-/* Specific rotation for each image */
 .hero-right img:nth-child(1) {
   transform: rotate(12deg);
   width: 12rem;
@@ -138,6 +136,9 @@ body {
   right: 2rem;
   bottom: 3rem;
 }
+.album-top {
+  padding: 2rem 0;
+}
 .album-listing {
   text-align: center;
 }
@@ -148,56 +149,55 @@ body {
   font-size: 1.2rem;
 }
 .head-booklisting {
-    display: flex;
-    overflow-x: auto;
-    padding: 1rem;
-    gap: 1rem;
-    scroll-snap-type: x mandatory;
-  }
-  
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  margin: 5rem;
+}
+
+.head-booklisting div {
+  min-width: 150px;
+  max-width: 200px;
+  flex: 0 0 auto;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: start;
+}
+
+.head-booklisting img {
+  width: 190px;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.head-booklisting p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #023047;
+}
+
+.head-booklisting p span {
+  font-weight: bold;
+  color: #02101c;
+}
+
+@media (max-width: 480px) {
   .head-booklisting div {
     min-width: 150px;
-    max-width: 200px;
-    flex: 0 0 auto;
-    text-align: center;
-    padding: 0.5rem;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    scroll-snap-align: start;
   }
-  
+
   .head-booklisting img {
-    width: 190px; /* Set a fixed width */
-    height: 250px; /* Set a fixed height */
-    object-fit: fill; /* Makes sure the image fits in the box, cropping the excess */
-    border-radius: 5px;
+    width: 120px;
+    height: 120px;
   }
-  
+
   .head-booklisting p {
-    font-size: 1rem;
-    margin: 0.5rem 0;
-    color: #023047;
+    font-size: 0.9rem;
   }
-  
-  .head-booklisting p span {
-    font-weight: bold;
-    color: #02101c;
-  }
-  
-  /* For smaller screens */
-  @media (max-width: 480px) {
-    .head-booklisting div {
-      min-width: 150px;
-    }
-  
-    .head-booklisting img {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .head-booklisting p {
-      font-size: 0.9rem;
-    }
-  }
-  
+}
