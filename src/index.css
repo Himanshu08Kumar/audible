@@ -23,13 +23,31 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0.3rem 15%;
+  align-items: center;
+  padding: 0.3rem 13%; 
 }
 .header-list {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem; 
   cursor: pointer;
+  margin: 0;
+}
+.header-list li {
+  display: inline-block;
+}
+.header span {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 2rem;
+  padding: 0 0.5rem;
+  width: 300px;
+}
+.header input {
+  border: none;
+  outline: none;
+  width: 280px; 
 }
 .hero {
   display: flex;
@@ -212,7 +230,7 @@ body {
 }
 .member-header{
   text-align: center;
-  padding: 2rem 10%; /* Reduced padding for smaller screens */
+  padding: 2rem 10%; 
 }
 .member-header p{
   max-width: 360px;
@@ -222,7 +240,7 @@ body {
   display: flex;
   gap: 4rem;
   justify-content: center;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 .member-card-list{
   margin-top: 2rem;
@@ -254,21 +272,57 @@ body {
     font-size: 0.9rem;
   }
   .member-card-list {
-    max-width: 100%; /* Full width for each card on smaller screens */
+    max-width: 100%; 
     margin-top: 1.5rem;
   }
 
   .member-header p {
     max-width: 100%;
   }
+  .header {
+    padding: 0.5rem 3%; 
+  }
+
+  .header-list {
+    gap: 0.3rem; 
+  }
+
+  .header span {
+    padding: 0 0.3rem; 
+    height: auto; 
+  }
+
+  .header input {
+    font-size: 0.9rem; 
+  }
 }
 
 @media (max-width: 768px) {
   .member-header {
-    padding: 2rem 5%; /* Adjust padding for smaller screens */
+    padding: 2rem 5%; 
   }
 
   .member-card {
-    gap: 2rem; /* Reduce the gap between cards */
+    gap: 2rem; 
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 0.5rem 5%; 
+  }
+
+  .header-list {
+    flex-direction: column; 
+    gap: 0.5rem; 
+  }
+
+  .header span {
+    width: 100%; 
+    margin-top: 1rem;
+  }
+
+  .header input {
+    width: 100%;
+    padding: 0.3rem; 
   }
 }
