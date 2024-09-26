@@ -304,6 +304,13 @@ body {
   font-size: 24px;
 }
 
+.footer{
+  text-align: center;
+  background: #deeefc;
+  padding: 1rem;
+  max-width: 100%;
+}
+
 @media (max-width: 480px) {
   .head-booklisting div {
     min-width: 150px;
