@@ -257,6 +257,52 @@ body {
   word-spacing: -1px;
   cursor: pointer;
 }
+.frequently{
+  padding: 0 14%;
+}
+.frequently h1{
+  text-align: center;
+}
+
+.asked-question-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.asked-question-container h2 {
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.asked-question-container p {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fafafa;
+  border-left: 4px solid #0073e6;
+  border-radius: 3px;
+  transition: opacity 0.3s ease;
+}
+
+.asked-question-container ul {
+  margin-left: 20px;
+}
+
+.asked-question-container li {
+  margin-bottom: 8px;
+}
+
+.icon {
+  font-size: 24px;
+}
 
 @media (max-width: 480px) {
   .head-booklisting div {

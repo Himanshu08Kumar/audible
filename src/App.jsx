@@ -7,6 +7,7 @@ import Prime from "./components/Prime";
 import Member from "./components/Member";
 import db from "../db.json";
 import Image from "../Image.json";
+import Frequently from "./components/Frequently";
 const App = () => {
   const [data, setData] = useState([]);
   const [image, setImage] = useState([]);
@@ -43,6 +44,7 @@ const App = () => {
       />
       <Prime />
       <Member />
+      <Frequently/>
     </>
   );
 };
