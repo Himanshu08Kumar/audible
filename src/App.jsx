@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Listing from "./components/Listing";
+import Prime from "./components/Prime";
+import Member from "./components/Member";
 import db from "../db.json";
 import Image from "../Image.json";
 const App = () => {
@@ -39,6 +41,8 @@ const App = () => {
         description="Thousands of included titles in the Plus Catalogue. No cap on listening time."
         data={data}
       />
+      <Prime />
+      <Member />
     </>
   );
 };

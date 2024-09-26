@@ -187,6 +187,59 @@ body {
   color: #02101c;
 }
 
+.prime-body{
+  display: flex;
+  padding: 0 2rem;
+  max-width: 60%;
+  height: 5rem;
+  border-radius: 1rem;
+  margin: 0 auto 3rem;
+  background: rgb(90,177,251);
+  background: linear-gradient(139deg, rgba(90,177,251,0.5439425770308124) 0%, rgba(236,242,247,0.8184523809523809) 24%);
+  transition: all 0.2s;
+}
+.prime-body:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.prime-body img{
+  width: 4rem;
+  margin-right: 1.5rem;
+}
+.prime-body p{
+  position: relative;
+  bottom: 0.9rem;
+}
+.member-header{
+  text-align: center;
+  padding: 2rem 10%; /* Reduced padding for smaller screens */
+}
+.member-header p{
+  max-width: 360px;
+  margin: 1rem auto;
+}
+.member-card{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+.member-card-list{
+  margin-top: 2rem;
+  max-width: 260px;
+}
+.member-button{
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  background-color: #ffa000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  word-spacing: -1px;
+  cursor: pointer;
+}
+
 @media (max-width: 480px) {
   .head-booklisting div {
     min-width: 150px;
@@ -199,5 +252,23 @@ body {
 
   .head-booklisting p {
     font-size: 0.9rem;
+  }
+  .member-card-list {
+    max-width: 100%; /* Full width for each card on smaller screens */
+    margin-top: 1.5rem;
+  }
+
+  .member-header p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .member-header {
+    padding: 2rem 5%; /* Adjust padding for smaller screens */
+  }
+
+  .member-card {
+    gap: 2rem; /* Reduce the gap between cards */
   }
 }
