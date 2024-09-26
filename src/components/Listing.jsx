@@ -1,7 +1,6 @@
 import React from "react";
 
 const Listing = ({ title, description, data }) => {
-  console.log(data);
   return (
     <div className="album-top">
       <div className="album-listing">
